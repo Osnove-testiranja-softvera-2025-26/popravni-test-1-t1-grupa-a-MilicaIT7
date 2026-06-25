@@ -1,0 +1,11 @@
+﻿position	hasBoat	output
+land	yes	yes
+land	no	yes
+outside	yes	no
+invalid	no	no
+pond	no	no
+null	yes	no
+null	no	no
+invalid	yes	no
+pond	yes	yes
+outside	no	no

@@ -1,0 +1,13 @@
+﻿# position [null], [outside], [invalid], [land], [pond]
+# hasBoat [yes], [no]
+
+position: null, outside, invalid, land, pond
+hasBoat: yes, no
+output: yes, no
+
+if [position] = "null" then [output] = "no";
+if [position] = "outside" then [output] = "no";
+if [position] = "invalid" then [output] = "no";
+if [position] = "land" then [output] = "yes";
+if [position] = "pond" and [hasBoat] = "yes" then [output] = "yes";
+if [position] = "pond" and [hasBoat] = "no" then [output] = "no";
